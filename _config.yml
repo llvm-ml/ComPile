@@ -24,15 +24,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   Landing page for ComPile, a large IR dataset from production sources.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+#twitter_username: jekyllrb
+github_username:  llvm-ml
 
 # Build settings
-theme: pages-themes/cayman@v0.2.0
+remote_theme: pages-themes/cayman
 plugins:
   - jekyll-remote-theme
-  - jekyll-feed
-
+  
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
