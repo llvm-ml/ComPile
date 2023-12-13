@@ -1,24 +1,25 @@
 ---
 layout: default
+title: ComPile
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
+## Abstract
 
-There should be whitespace between paragraphs.
+Code is increasingly becoming a core data modality of modern machine learning research impacting not only the way we write code
+with conversational agents like OpenAI's ChatGPT, Google's Bard, or Anthropic's Claude, the way we translate code from one language
+into another, but also the compiler infrastructure underlying the language. While modeling approaches may vary and representations differ,
+the targeted tasks often remain the same within the individual classes of models. Relying solely on the ability of modern models to extract
+information from unstructured code does not take advantage of 70 years of programming language and compiler development by not utilizing the
+structure inherent to programs in the data collection. This detracts from the performance of models working over a tokenized representation
+of input code and precludes the use of these models in the compiler itself. To work towards better intermediate
+representation (IR) based models, we fully utilize the LLVM compiler infrastructure, shared by a number of languages, to generate
+a 182B token dataset of LLVM IR. We generated this dataset from programming languages built on the shared LLVM
+infrastructure, including Rust, Swift, Julia, and C/C++, by hooking into LLVM code generation either through the language's package
+manager or the compiler directly to extract the dataset of intermediate representations from production grade programs.
+Our dataset shows great promise for large language model training, and machine-learned compiler components.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## The Different Aspects of the Dataset Visualized
 
 ### Header 3
 
@@ -58,40 +59,6 @@ end
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
 
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
 ### Small image
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
@@ -100,24 +67,31 @@ end
 
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
+## Authors
 
-### Definition lists can be used with HTML syntax.
+* Aiden Grossman
+* Ludger Paehler
+* Konstantinos Parasyris
+* Tal Ben-Nun
+* Jacob Hegna
+* William S. Moses
+* Jose M Monsalve Diaz
+* Mircea Trofin
+* Johannes Doerfert
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+## Corresponding Authors
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+* Aiden Grossman ([amgrossman@ucdavis.edu](mailto:amgrossman@ucdavis.edu?subject=ComPile))
 
-```
-The final element.
+## Citation
+
+```bibtex
+@article{grossman2023compile,
+  title={ComPile: A Large IR Dataset from Production Sources},
+  author={Grossman, Aiden and Paehler, Ludger and Parasyris, Konstantinos and Ben-Nun, Tal
+          and Hegna, Jacob and Moses, William and Diaz, Jose M Monsalve and Trofin, Mircea
+          and Doerfert, Johannes},
+  journal={arXiv preprint arXiv:2309.15432},
+  year={2023}
+}
 ```
