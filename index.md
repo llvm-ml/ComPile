@@ -69,8 +69,6 @@ end
 
 ## Authors
 
-To be replaced with an array of the images, needs to be injected as HTML logic.
-
 * Aiden Grossman
 * Ludger Paehler
 * Konstantinos Parasyris
@@ -80,6 +78,26 @@ To be replaced with an array of the images, needs to be injected as HTML logic.
 * Jose M Monsalve Diaz
 * Mircea Trofin
 * Johannes Doerfert
+
+<div class="row">
+  <div class="row">
+    <center>
+    <img src="grossman.png" alt="Snow" style="width:19%">
+    <img src="paehler.jpg" alt="Forest" style="width:19%">
+    <img src="parasyris.jpg" alt="Forest" style="width:19%">
+    <img src="ben-nun.jpg" alt="Forest" style="width:19%">
+    </center>
+  </div>
+</div>
+<div class="row">
+  <div class="row">
+    <img src="hegna.png" alt="Forest" style="width:19%">
+    <img src="moses.jpg" alt="Forest" style="width:19%">
+    <img src="monsalve-diaz.jpg" alt="Forest" style="width:19%">
+    <img src="trofin.png" alt="Forest" style="width:19%">
+    <img src="doerfert.jpg" alt="Forest" style="width:19%">
+  </div>
+</div>
 
 ## Corresponding Authors
 
