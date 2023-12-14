@@ -69,6 +69,8 @@ end
 
 ## Authors
 
+To be replaced with an array of the images, needs to be injected as HTML logic.
+
 * Aiden Grossman
 * Ludger Paehler
 * Konstantinos Parasyris
