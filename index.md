@@ -134,12 +134,12 @@ In literature there exist a number of related datasets of different sizes, and f
 ## Citation
 
 ```bibtex
-@article{grossman2023compile,
+@inproceedings{grossman2023neurips,
   title={ComPile: A Large IR Dataset from Production Sources},
   author={Grossman, Aiden and Paehler, Ludger and Parasyris, Konstantinos and Ben-Nun, Tal
           and Hegna, Jacob and Moses, William and Diaz, Jose M Monsalve and Trofin, Mircea
           and Doerfert, Johannes},
-  journal={arXiv preprint arXiv:2309.15432},
+  booktitle={NeurIPS 2023 Workshop on ML for Systems},
   year={2023}
 }
 ```
