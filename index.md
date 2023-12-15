@@ -19,56 +19,60 @@ infrastructure, including Rust, Swift, Julia, and C/C++, by hooking into LLVM co
 manager or the compiler directly to extract the dataset of intermediate representations from production grade programs.
 Our dataset shows great promise for large language model training, and machine-learned compiler components.
 
-## The Different Aspects of the Dataset Visualized
+## The Dataset at a Glance
 
-### Header 3
+![Treemap](size_treemap.png)
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+Broken down into the specific sizes of the content of ComPile in the different LLVM-based languages contained in ComPile:
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+| Language | C | C++ | Julia | Rust | Swift | Total |
+|:-------------|:----|:----|:----|:----|:----|:----|
+| Size (Bitcode) | 13 GB | 81 GB | 197 GB | 482 GB | 5 GB | 778 GB |
+| Size (Text) | 61 GB | 334 GB | 1292 GB | 1868 GB | 22 GB | 3577 GB |
+| Deduplicated Size (Bitcode) | 8 GB | 67 GB | 130 GB | 310 GB | 4 GB | 518 GB |
+| Deduplicated Size (Text) | 34 GB | 266 GB | 856 GB | 1221 GB | 19 GB | 2395 GB |
 
-#### Header 4
+To arrive at a permissively licensed subset we filter the dataset for the following 4 licenses:
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+* [MIT](https://spdx.org/licenses/MIT.html)
+* [Apache-2.0](https://spdx.org/licenses/Apache-2.0.html)
+* [BSD-3-Clause](https://spdx.org/licenses/BSD-3-Clause-Clear.html)
+* [BSD-2-Clause](https://spdx.org/licenses/BSD-2-Clause.html)
 
-##### Header 5
+The license information for the filtering is obtaines from package repositories, GitHub, and if required manually using the [go-license-detector](https://github.com/go-enry/go-license-detector). Provenance information, and license text are distributed alongside the dataset to comply with terms.
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+| Source | Total | Under Permissive Licenses | with License Files |
+|:-------------|:-------|:------|:------|:------|:------|
+| Rust | 586 GB | 468 GB | 394 GB |
+| Julia | 210 GB | 186 GB | 186 GB |
+| Spack (C/C++) | 118 GB | 67.3 GB | 45.5 GB |
+| Swift | 7.35 GB | 6.93 GB | 6.93 GB |
 
-###### Header 6
+This results in the following number of tokens of the closed, and public version of ComPile under increasing vocabulary sizes:
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
 
-### Small image
+| Vocabulary Size | 10,000 | 50,000 | 100,000 | 200,000 |
+|:-------------|:-------|:------|:------|:------|:------|
+| ComPile (closed) | 182 B | 119 B | 102 B | 87 B |
+| ComPile (public) | 144 B | 94 B | 81 B | 69 B |
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+> The tooling to reproduce both version of the datasets is publicly available on [Zenodo](https://zenodo.org/records/10155761).
 
-### Large image
+## Relation to Other Datasets
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+In literature there exist a number of related datasets of different sizes, and for a wide variety of code-related tasks. At a glance:
+
+| Name of Dataset  | Tokens          | Size | Languages |
+|:-------------|:------------------|:------|:---------|
+| [The Stack](https://arxiv.org/abs/2211.15533) | - | 2.9 TB | 358 Languages |
+| ComPile (closed) | 182 B   | 2.4 TB | Rust, Swift, Julia, C/C++ |
+| ComPile (public) | 144 B    | 1.9 TB | Rust, Swift, Julia, C/C++ |
+| [Code Llama](https://arxiv.org/abs/2308.12950) | 197 B | 859 GB | - |
+| [TransCoder](https://arxiv.org/abs/2006.03511) | 163 B | 744 GB | C++, Java, Python |
+| [AlphaCode](https://arxiv.org/abs/2203.07814) | - | 715.1 GB | 12 Languages |
+| [LLM for Compiler Opt.](https://arxiv.org/abs/2309.07062) | 373 M | 1 GB | C/C++ |
 
 ## Authors
-
 
 <div class="row1">
     <center>
