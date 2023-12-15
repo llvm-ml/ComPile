@@ -65,8 +65,8 @@ In literature there exist a number of related datasets of different sizes, and f
 | Name of Dataset  | Tokens          | Size | Languages |
 |:-------------|:------------------|:------|:---------|
 | [The Stack](https://arxiv.org/abs/2211.15533) | - | 2.9 TB | 358 Languages |
-| ComPile (closed) | 182 B   | 2.4 TB | Rust, Swift, Julia, C/C++ |
-| ComPile (public) | 144 B    | 1.9 TB | Rust, Swift, Julia, C/C++ |
+| **ComPile (closed)** | **182 B**   | **2.4 TB** | **Rust, Swift, Julia, C/C++** |
+| **ComPile (public)** | **144 B** | **1.9 TB** | **Rust, Swift, Julia, C/C++** |
 | [Code Llama](https://arxiv.org/abs/2308.12950) | 197 B | 859 GB | - |
 | [TransCoder](https://arxiv.org/abs/2006.03511) | 163 B | 744 GB | C++, Java, Python |
 | [AlphaCode](https://arxiv.org/abs/2203.07814) | - | 715.1 GB | 12 Languages |
