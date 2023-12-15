@@ -39,7 +39,7 @@ To arrive at a permissively licensed subset we filter the dataset for the follow
 * [BSD-3-Clause](https://spdx.org/licenses/BSD-3-Clause-Clear.html)
 * [BSD-2-Clause](https://spdx.org/licenses/BSD-2-Clause.html)
 
-The license information for the filtering is obtaines from package repositories, GitHub, and if required manually using the [go-license-detector](https://github.com/go-enry/go-license-detector). Provenance information, and license text are distributed alongside the dataset to comply with terms.
+The license information for the filtering is obtained from package repositories, GitHub, and if required manually using the [go-license-detector](https://github.com/go-enry/go-license-detector). Provenance information, and license text are distributed alongside the dataset to comply with terms.
 
 | Source | Total | Under Permissive Licenses | with License Files |
 |:-------------|:-------|:------|:------|:------|:------|
