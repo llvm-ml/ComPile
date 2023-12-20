@@ -74,6 +74,7 @@ In literature there exist a number of related datasets of different sizes, and f
 
 ## Authors
 
+<div style="display:table">
 <div class="row1">
     <center>
     <div style="float:left;margin-right:20px;">
@@ -125,7 +126,7 @@ In literature there exist a number of related datasets of different sizes, and f
     </center>
 </div>
 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+</div>
 
 ## Corresponding Author
 
