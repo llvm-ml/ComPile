@@ -74,58 +74,45 @@ In literature there exist a number of related datasets of different sizes, and f
 
 ## Authors
 
-<div style="display:table">
-<div class="row1">
-    <center>
-    <div style="float:left;margin-right:20px;">
+<div style="display:table;margin: 0 auto;">
+<div class="cards">
+    <div class="card">
         <img src="grossman.png" height="200" width="200" alt="aiden" />
         <p style="text-align:center;"><a href="https://aidengrossman.com">Aiden Grossman</a></p>
     </div>
-    <div style="float:left;margin-right:20px;">
+    <div class="card">
         <img class="middle-img" src="paehler.jpg" height="200" width="200" alt="ludger" />
         <p style="text-align:center;"><a href="https://ludger.fyi">Ludger Paehler</a></p>
     </div>
-    <div style="float:left;margin-right:20px;">
+    <div class="card">
         <img src="parasyris.jpg" height="200" width="200" alt="stinos" />
         <p style="text-align:center;"><a href="https://www.linkedin.com/in/kostadinos-parasyris-3992b950">Konstadinos Parasyris</a></p>
     </div>
-    </center>
-</div>
-
-<div class="row2">
-    <center>
-    <div style="float:left;margin-right:20px;">
+    <div class="card">
         <img src="ben-nun.jpg" height="200" width="200" alt="tal" />
         <p style="text-align:center;"><a href="https://tbennun.github.io">Tal Ben-Nun</a></p>
     </div>
-    <div style="float:left;margin-right:20px;">
+    <div class="card">
         <img class="middle-img" src="hegna.png" height="200" width="200" alt="jacob" />
         <p style="text-align:center;"><a href="https://www.linkedin.com/in/jacob-hegna">Jacob Hegna</a></p>
     </div>
-    <div style="float:left;margin-right:20px;">
+    <div class="card">
         <img src="moses.jpg" height="200" width="200" alt="william" />
         <p style="text-align:center;"><a href="https://wsmoses.com/academic/">William S. Moses</a></p>
     </div>
-    </center>
-</div>
-
-<div class="row3">
-    <center>
-    <div style="float:left;margin-right:20px;">
+    <div class="card">
         <img src="monsalve-diaz.jpg" height="200" width="200" alt="jose" />
         <p style="text-align:center;"><a href="https://www.anl.gov/profile/jose-manuel-monsalve">Jose Monsalve-Diaz</a></p>
     </div>
-    <div style="float:left;margin-right:20px;">
+    <div class="card">
         <img class="middle-img" src="trofin.png" height="200" width="200" alt="mircea" />
         <p style="text-align:center;"><a href="https://research.google/people/mircea-trofin/">Mircea Trofin</a></p>
     </div>
-    <div style="float:left;margin-right:20px;">
+    <div class="card">
         <img src="doerfert.jpg" height="200" width="200" alt="johannes" />
         <p style="text-align:center;"><a href="https://people.llnl.gov/doerfert1">Johannes Doerfert</a></p>
     </div>
-    </center>
 </div>
-
 </div>
 
 ## Corresponding Author
