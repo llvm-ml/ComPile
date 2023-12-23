@@ -78,7 +78,7 @@ In literature there exist a number of related datasets of different sizes, and f
 <div class="cards">
     <div class="card">
         <img src="grossman.png" height="200" width="200" alt="aiden" />
-        <p style="text-align:center;"><a href="https://aidengrossman.com">Aiden Grossman</a></p>
+        <p style="text-align:center;"><a href="https://www.linkedin.com/in/aiden-grossman-40213a248/">Aiden Grossman</a></p>
     </div>
     <div class="card">
         <img class="middle-img" src="paehler.jpg" height="200" width="200" alt="ludger" />
