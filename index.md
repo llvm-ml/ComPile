@@ -86,7 +86,7 @@ In literature there exist a number of related datasets of different sizes, and f
     </div>
     <div class="card">
         <img src="parasyris.jpg" height="200" width="200" alt="stinos" />
-        <p style="text-align:center;"><a href="https://www.linkedin.com/in/kostadinos-parasyris-3992b950">Konstadinos Parasyris</a></p>
+        <p style="text-align:center;"><a href="https://people.llnl.gov/parasyris1">Konstadinos Parasyris</a></p>
     </div>
     <div class="card">
         <img src="ben-nun.jpg" height="200" width="200" alt="tal" />
